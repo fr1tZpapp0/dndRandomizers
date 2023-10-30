@@ -136,50 +136,251 @@ oneList = [
 "Tiger"
 ]
 
-twoList = []
+twoList = [
+"Ankheg",
+"Awakened Tree",
+"Azer",
+"Bandit Captain",
+"Berserker",
+"Black Dragon Wyrmling",
+"Bronze Dragon Wyrmling",
+"Centaur",
+"Cult Fanatic",
+"Druid",
+"Ettercap",
+"Gargoyle",
+"Gelatinous Cube",
+"Ghast",
+"Giant Boar",
+"Giant Constrictor Snake",
+"Giant Elk",
+"Gibbering Mouther",
+"Green Dragon Wyrmling",
+"Grick",
+"Griffon",
+"Hunter Shark",
+"Merrow",
+"Mimic",
+"Minotaur Skeleton",
+"Ochre Jelly",
+"Ogre",
+"Ogre Zombie",
+"Pegasus",
+"Plesiosaurus",
+"Polar Bear",
+"Priest",
+"Rhinoceros",
+"Rug of Smothering",
+"Saber-Toothed Tiger",
+"Sea Hag",
+"Silver Dragon Wyrmling",
+"Swarm of Poisonous Snakes",
+"Wererat",
+"White Dragon Wyrmling",
+"Will-o'-Wisp",
+]
 
-threeList = []
+threeList = [
+"Basilisk",
+"Bearded Devil",
+"Blue Dragon Wyrmling",
+"Doppelganger",
+"Giant Scorpion",
+"Gold Dragon Wyrmling",
+"Green Hag",
+"Hell Hound",
+"Killer Whale",
+"Knight",
+"Manticore",
+"Minotaur",
+"Mummy",
+"Nightmare",
+"Owlbear",
+"Phase Spider",
+"Veteran",
+"Werewolf",
+"Wight",
+"Winter Wolf"
+]
 
-fourList = []
+fourList = [
+"Black Pudding",
+"Chuul",
+"Couatl",
+"Elephant",
+"Ettin",
+"Ghost",
+"Lamia",
+"Red Dragon Wyrmling",
+"Succubus/Incubus",
+"Wereboar",
+"Weretiger"
+]
 
-fiveList = []
+fiveList = [
+"Air Elemental",
+"Barbed Devil",
+"Bulette",
+"Earth Elemental",
+"Fire Elemental",
+"Flesh Golem",
+"Giant Crocodile",
+"Giant Shark",
+"Gladiator",
+"Gorgon",
+"Half-Red Dragon Veteran",
+"Hill Giant",
+"Night Hag",
+"Otyugh",
+"Roper",
+"Salamander",
+"Shambling Mound",
+"Triceratops",
+"Troll",
+"Unicorn",
+"Vampire Spawn",
+"Water Elemental",
+"Werebear",
+"Wraith",
+"Xorn"
+]
 
-sixList = []
+sixList = [
+"Chimera",
+"Drider",
+"Invisible Stalker",
+"Mage",
+"Mammoth",
+"Medusa",
+"Vrock",
+"Wyvern",
+"Young Brass Dragon",
+"Young White Dragon"
+]
 
-sevenList = []
+sevenList = [
+"Giant Ape",
+"Oni",
+"Shield Guardian",
+"Stone Giant",
+"Young Black Dragon",
+"Young Copper Dragon"
+]
 
-eightList = []
+eightList = [
+"Assassin",
+"Chain Devil",
+"Cloaker",
+"Frost Giant",
+"Hezrou",
+"Hydra",
+"Spirit Naga",
+"Tyrannosaurus Rex",
+"Young Bronze Dragon",
+"Young Green Dragon"
+]
 
-nineList = []
+nineList = [
+"Bone Devil",
+"Clay Golem",
+"Cloud Giant",
+"Fire Giant",
+"Glabrezu",
+"Treant",
+"Young Blue Dragon",
+"Young Silver Dragon"
+]
 
-tenList = []
+tenList = [
+"Aboleth",
+"Deva",
+"Guardian Naga",
+"Stone Golem",
+"Young Gold Dragon",
+"Young Red Dragon"
+]
 
-elevenList = []
+elevenList = [
+"Behir",
+"Djinni",
+"Efreeti",
+"Gynosphinx",
+"Horned Devil",
+"Remorhaz",
+"Roc"
+]
 
-twelveList = []
+twelveList = [
+"Archmage",
+"Erinyes"
+]
 
-thirteenList = []
+thirteenList = [
+"Adult Brass Dragon",
+"Adult White Dragon",
+"Nalfeshnee",
+"Rakshasa",
+"Storm Giant",
+"Vampire"
+]
 
-fourteenList = []
+fourteenList = [
+"Adult Black Dragon",
+"Adult Copper Dragon",
+"Ice Devil"
+]
 
-fifteenList = []
+fifteenList = [
+"Adult Bronze Dragon",
+"Adult Green Dragon",
+"Mummy Lord",
+"Purple Worm"
+]
 
-sixteenList = []
+sixteenList = [
+"Adult Blue Dragon",
+"Adult Silver Dragon",
+"Iron Golem",
+"Marilith",
+"Planetar"
+]
 
-seventeenList = []
+seventeenList = [
+"Adult Gold Dragon",
+"Adult Red Dragon",
+"Androsphinx",
+"Dragon Turtle"
+]
 
-eighteenList = []
+nineteenList = [
+"Balor"
+]
 
-nineteenList = []
+twentyList = [
+"Ancient Brass Dragon",
+"Ancient White Dragon",
+"Pit Fiend"
+]
 
-twentyList = []
+twentyoneList = [
+"Ancient Black Dragon",
+"Ancient Copper Dragon",
+"Lich",
+"Solar"
+]
 
-twentyoneList = []
+twentytwoList = [
+"Ancient Bronze Dragon", "Ancient Green Dragon"
+]
 
-twentytwoList = []
+twentythreeList = [
+"Ancient Blue Dragon", "Ancient Silver Dragon", "Kraken"
+]
 
-twentythreeList = []
+twentyfourList = [
+"Ancient Gold Dragon", "Ancient Red Dragon"
+]
 
-twentyfourList = []
-
-thirtyList = ["TARRASQUE"]
+thirtyList = [
+"TARRASQUE"
+]
