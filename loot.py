@@ -66,7 +66,7 @@ def randomizeLoot(level):
 			print(str(mediumRange) + " " + "PP")
 
 
-	elif 15 < level <= 20: # LEVELS 16 +
+	elif 15 < level <= 20: # LEVELS 16+
 		if 1 <= currencyRange <= 20:
 			print(str(insaneRange) + " " + "CP")
 

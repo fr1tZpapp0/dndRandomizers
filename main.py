@@ -13,15 +13,15 @@ root = Tk(className=' D&D RANDOMIZERS BY fr1tZ ')
 root.geometry("500x500")
 
 
-def character():
+def characters():
 	charWin = Tk(className = ' CHARACTERS ')
 	charWin.geometry("500x500")
 
-
+	charWin.mainloop()
 
 def zeros():
 	moutWin = Tk(className = ' S-M ')
-	moutWin.geometry("250x250")
+	moutWin.geometry("250x100")
 
 	moutLabel = Label(moutWin, font="Times25")
 	zeroChoice = choice(zeroList)
@@ -34,7 +34,7 @@ def zeros():
 
 def ones():
 	moutWin = Tk(className = ' S-M ')
-	moutWin.geometry("250x250")
+	moutWin.geometry("250x100")
 
 	moutLabel = Label(moutWin, font="Times25")
 	oneChoice = choice(oneList)
@@ -59,7 +59,7 @@ def monsters():
 
 
 monstersButton = Button(root, text="MONSTERS", height=5, width=15, font='Times25', command=monsters)
-charactersButton = Button(root, text="CHARACTERS", height=5, width=15, font='Times25')
+charactersButton = Button(root, text="CHARACTERS", height=5, width=15, font='Times25', command=characters)
 magicButton = Button(root, text="MAGIC", height=5, width=15, font='Times25')
 lootButton = Button(root, text="LOOT", height=5, width=15, font='Times25')
 
