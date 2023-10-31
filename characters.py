@@ -44,3 +44,6 @@ classes = [
 "Warlock",
 "Wizard"
 ]
+
+fName = []
+lName = []

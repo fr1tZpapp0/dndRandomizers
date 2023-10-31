@@ -370,15 +370,19 @@ twentyoneList = [
 ]
 
 twentytwoList = [
-"Ancient Bronze Dragon", "Ancient Green Dragon"
+"Ancient Bronze Dragon",
+"Ancient Green Dragon"
 ]
 
 twentythreeList = [
-"Ancient Blue Dragon", "Ancient Silver Dragon", "Kraken"
+"Ancient Blue Dragon",
+"Ancient Silver Dragon",
+"Kraken"
 ]
 
 twentyfourList = [
-"Ancient Gold Dragon", "Ancient Red Dragon"
+"Ancient Gold Dragon",
+"Ancient Red Dragon"
 ]
 
 thirtyList = [
