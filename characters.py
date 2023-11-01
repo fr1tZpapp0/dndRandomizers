@@ -15,7 +15,7 @@ races = [
 "Deep Gnome",
 "Goliath",
 "Half-Elf",
-"Helf-Orc",
+"Half-Orc",
 "Lightfoot Halfling",
 "Stout Halfling",
 "Human",
@@ -44,6 +44,3 @@ classes = [
 "Warlock",
 "Wizard"
 ]
-
-fName = []
-lName = []

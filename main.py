@@ -14,8 +14,14 @@ root.geometry("500x500")
 
 levelVar = 1
 
-
-
+aarVar = BooleanVar()
+draVar = BooleanVar()
+hidVar = BooleanVar()
+modVar = BooleanVar()
+hieVar = BooleanVar()
+woeVar = BooleanVar()
+eleVar = BooleanVar()
+dreVar = BooleanVar()
 
 
 def randomizeLoot():
@@ -182,9 +188,107 @@ def randomizeLoot():
 
 def character():
 	charWin = Tk(className = ' NPCS ')
-	charWin.geometry("500x500")
+	charWin.geometry("500x710")
+
+	aaraCb = Checkbutton(charWin, text="Aarakocra")
+	draCb = Checkbutton(charWin, text="Dragonborn")
+	hiDCb = Checkbutton(charWin, text="Hill Dwarf")
+	moDCb = Checkbutton(charWin, text="Mountain Dwarf")
+	hiECb = Checkbutton(charWin, text="High Elf")
+	woECb = Checkbutton(charWin, text="Wood Elf")
+	elECb = Checkbutton(charWin, text="Eladrin Elf")
+	drECb = Checkbutton(charWin, text="Drow Elf")
+	aiGCb = Checkbutton(charWin, text="Air Genasi")
+	eaGCb = Checkbutton(charWin, text="Earth Genasi")
+	fiGCb = Checkbutton(charWin, text="Fire Genasi")
+	waGCb = Checkbutton(charWin, text="Water Genasi")
+	roGCb = Checkbutton(charWin, text="Rock Gnome")
+	deGCb = Checkbutton(charWin, text="Deep Gnome")
+	golCb = Checkbutton(charWin, text="Goliath")
+	haElCb = Checkbutton(charWin, text="Half-Elf")
+	haOrCb = Checkbutton(charWin, text="Half-Orc")
+	ligHaCb = Checkbutton(charWin, text="Lightfoot Halfling")
+	stHaCb = Checkbutton(charWin, text="Stout Halfling")
+	hCb = Checkbutton(charWin, text="Human")
+	tCb = Checkbutton(charWin, text="Tiefling")
+	aaCb = Checkbutton(charWin, text="Aasimar")
+	aeCb = Checkbutton(charWin, text="Astral Elf")
+	agCb = Checkbutton(charWin, text="Autognome")
+	gifCb = Checkbutton(charWin, text="Giff")
+	hadCb = Checkbutton(charWin, text="Hadozee")
+	plaCb = Checkbutton(charWin, text="Plasmoid")
+	thKCb = Checkbutton(charWin, text="Thri-Kreen")
 
 
+	artiCb = Checkbutton(charWin, text="Artificer")
+	barbCb = Checkbutton(charWin, text="Barbarian")
+	bardCb = Checkbutton(charWin, text="Bard")
+	clerCb = Checkbutton(charWin, text="Cleric")
+	druiCb = Checkbutton(charWin, text="Druid")
+	fighCb = Checkbutton(charWin, text="Fighter")
+	monkCb = Checkbutton(charWin, text="Monk")
+	palaCb = Checkbutton(charWin, text="Paladin")
+	rangCb = Checkbutton(charWin, text="Ranger")
+	roguCb = Checkbutton(charWin, text="Rogue")
+	sorcCb = Checkbutton(charWin, text="Sorcerer")
+	warlCb = Checkbutton(charWin, text="Warlock")
+	wizaCb = Checkbutton(charWin, text="Wizard")
+
+	
+
+
+	aaraCb.grid(row=0, column=0)
+	draCb.grid(row=1, column=0)
+	hiDCb.grid(row=2, column=0)
+	moDCb.grid(row=3, column=0)
+	hiECb.grid(row=4, column=0)
+	woECb.grid(row=5, column=0)
+	elECb.grid(row=6, column=0)
+	drECb.grid(row=7, column=0)
+	aiGCb.grid(row=8, column=0)
+	eaGCb.grid(row=9, column=0)
+	fiGCb.grid(row=10, column=0)
+	waGCb.grid(row=11, column=0)
+	roGCb.grid(row=12, column=0)
+	deGCb.grid(row=13, column=0)
+	golCb.grid(row=14, column=0)
+	haElCb.grid(row=15, column=0)
+	haOrCb.grid(row=16, column=0)
+	ligHaCb.grid(row=17, column=0)
+	stHaCb.grid(row=18, column=0)
+	hCb.grid(row=19, column=0)
+	tCb.grid(row=20, column=0)
+	aaCb.grid(row=21, column=0)
+	aeCb.grid(row=22, column=0)
+	agCb.grid(row=23, column=0)
+	gifCb.grid(row=24, column=0)
+	hadCb.grid(row=25, column=0)
+	plaCb.grid(row=26, column=0)
+	thKCb.grid(row=27, column=0)
+
+
+	artiCb.grid(row=0, column=1)
+	barbCb.grid(row=1, column=1)
+	bardCb.grid(row=2, column=1)
+	clerCb.grid(row=3, column=1)
+	druiCb.grid(row=4, column=1)
+	fighCb.grid(row=5, column=1)
+	monkCb.grid(row=6, column=1)
+	palaCb.grid(row=7, column=1)
+	rangCb.grid(row=8, column=1)
+	roguCb.grid(row=9, column=1)
+	sorcCb.grid(row=10, column=1)
+	warlCb.grid(row=11, column=1)
+	wizaCb.grid(row=12, column=1)
+
+
+	def randomizeNPC():
+		print("RANDOMIZING")
+
+
+	randomizeButton = Button(charWin, text="Randomize NPC!", font="Times25", command=randomizeNPC)
+
+	randomizeButton.grid(row=0, column=2)
 
 
 	charWin.mainloop()
